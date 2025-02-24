@@ -1,4 +1,6 @@
 # 🚀 Setup Instructions
+####  npm i express nodemon ejs mongoose dotenv jsonwebtoken bcrypt cookie-parser express-validator multer sharp uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-mailgun nodemailer-smtp-transport nodemailer-sparkpost-transport nodemailer-mailgun nodemailer-mailgun-transport nodemailer-sparkpost-transport nodemailer-sparkpost nodemailer-sendgrid-transport nodemailer-sendgrid 
+
 # 1️⃣ Install Core Dependencies  
 ## `npm i express nodemon ejs cookie-parser joi dotenv mongoose config`
 
