@@ -1,5 +1,10 @@
 # 🚀 Setup Instructions
-####  npm i express nodemon ejs mongoose dotenv jsonwebtoken bcrypt cookie-parser express-validator multer sharp uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-mailgun nodemailer-smtp-transport nodemailer-sparkpost-transport nodemailer-mailgun nodemailer-mailgun-transport nodemailer-sparkpost-transport nodemailer-sparkpost nodemailer-sendgrid-transport nodemailer-sendgrid 
+## For Backend npm packages
+##  npm install express nodemon ejs mongoose dotenv jsonwebtoken bcrypt cookie-parser express-validator multer sharp redis express-session config uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-smtp-transport nodemailer-sparkpost-transport
+
+
+## For Frontend npm packages
+## npm i react react-dom vite @vitejs/plugin-react react-icons redux react-redux @reduxjs/toolkit styled-components react-router-dom react-hook-form yup axios vite-plugin-dotenv vite-plugin-svgr sass react-testing-library jest boxicons  
 
 # 1️⃣ Install Core Dependencies  
 ## `npm i express nodemon ejs cookie-parser joi dotenv mongoose config`
