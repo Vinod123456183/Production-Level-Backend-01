@@ -15,15 +15,17 @@ const path = require("path");
 
 
 
+
 const expressLayouts = require("express-ejs-layouts");
-app.use('/layouts', express.static(__dirname + '/layouts'));
 app.use(expressLayouts);
-app.set("layout", "../layouts/header");
-
-
-
-
+app.set("layout", __dirname + "/layouts/main");
+app.use("/layouts", express.static(__dirname + "/layouts"));
+app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
+
+
+
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
