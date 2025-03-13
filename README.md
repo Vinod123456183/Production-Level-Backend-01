@@ -2,7 +2,7 @@
 
 
 # Folder Structures
-## mkdir views ,models ,controller ,routes , config , layouts , middlewares , public , utils
+## mkdir views ,models ,controllers ,routes , config , layouts , middlewares , public , utils
 ## cd .\public\
 ## mkdir css , js , images
 
