@@ -11,7 +11,7 @@
 ## cd ../
 
 ## For Backend npm packages
-##  npm install express nodemon ejs mongoose dotenv  express-validator jsonwebtoken bcrypt cookie-parser express-validator multer sharp redis express-session config uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-smtp-transport nodemailer-sparkpost-transport
+##  npm install express nodemon ejs mongoose dotenv  express-ejs-layouts jsonwebtoken bcrypt cookie-parser express-validator multer sharp redis express-session config uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-smtp-transport nodemailer-sparkpost-transport
 
 
 ## For Frontend npm packages
