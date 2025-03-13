@@ -1,4 +1,10 @@
 # 🚀 Setup Instructions
+
+
+# Folder Structures
+## mkdir views ,models ,controller ,routes , config , layouts , middlewares , public , utils
+
+
 ## For Backend npm packages
 ##  npm install express nodemon ejs mongoose dotenv jsonwebtoken bcrypt cookie-parser express-validator multer sharp redis express-session config uuid express-fileupload nodemailer nodemailer-sendgrid-transport nodemailer-mailgun-transport nodemailer-smtp-transport nodemailer-sparkpost-transport
 
