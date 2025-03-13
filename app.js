@@ -11,6 +11,18 @@ const indexRouter = require("./routes/index-router");
 const userRouter = require("./routes/user-router");
 const path = require("path");
 
+
+
+
+
+const expressLayouts = require("express-ejs-layouts");
+app.use('/layouts', express.static(__dirname + '/layouts'));
+app.use(expressLayouts);
+app.set("layout", "../layouts/header");
+
+
+
+
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
